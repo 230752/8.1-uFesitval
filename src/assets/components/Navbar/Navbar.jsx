@@ -7,7 +7,7 @@ function NavBar() {
 
   useEffect(() => {
     setCurrentPath(location.pathname);
-  }, [location]);
+  }, [location.pathname]);
 
   return (
     <div
@@ -20,7 +20,7 @@ function NavBar() {
       >
         <Link
           to="/info"
-          className={`flex items-center p-2 transition-all duration-200 ${
+          className={`flex flex-col items-center p-2 transition-all duration-200 m-0 ${
             currentPath === "/info"
               ? "p-3 border border-gray-200 rounded-full shadow-sm"
               : ""
@@ -78,7 +78,7 @@ function NavBar() {
             className="material-symbols-outlined"
             style={{ fontSize: "26px" }}
           >
-            location_on
+            explore
           </span>
         </Link>
 

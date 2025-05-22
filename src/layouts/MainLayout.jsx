@@ -12,6 +12,7 @@ function MainLayout() {
       </header>
       <NavBar />
       <main><Outlet/></main>
+      <footer></footer>
     </>
   );
 }

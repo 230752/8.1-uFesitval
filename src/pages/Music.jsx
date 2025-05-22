@@ -1,4 +1,4 @@
-function InfoPage() {
+function MusicPage() {
   return (
     <>
       <main>
@@ -8,4 +8,4 @@ function InfoPage() {
   );
 }
 
-export default InfoPage;
+export default MusicPage;

@@ -1,4 +1,4 @@
-function InfoPage() {
+function LocationPage() {
   return (
     <>
       <main>
@@ -8,4 +8,4 @@ function InfoPage() {
   );
 }
 
-export default InfoPage;
+export default LocationPage;

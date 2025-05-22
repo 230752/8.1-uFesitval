@@ -10,7 +10,6 @@ function HomePage() {
         <img src={HangarImg} alt="hangar" className="rounded-xl"/>
       </div>
       </main>
-      <footer></footer>
     </>
   );
 }

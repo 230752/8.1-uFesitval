@@ -19,9 +19,9 @@ function NavBar() {
         className="flex flex-row justify-evenly items-center h-full"
       >
         <Link
-          to="/info"
-          className={`flex flex-col items-center p-2 transition-all duration-200 m-0 ${
-            currentPath === "/info"
+          to="/home"
+          className={`flex items-center p-2 transition-all duration-200 ${
+            currentPath === "/home"
               ? "p-3 border border-gray-200 rounded-full shadow-sm"
               : ""
           }`}
@@ -30,7 +30,7 @@ function NavBar() {
             className="material-symbols-outlined"
             style={{ fontSize: "26px" }}
           >
-            info
+            home
           </span>
         </Link>
 
@@ -47,22 +47,6 @@ function NavBar() {
             style={{ fontSize: "26px" }}
           >
             music_note
-          </span>
-        </Link>
-
-        <Link
-          to="/home"
-          className={`flex items-center p-2 transition-all duration-200 ${
-            currentPath === "/home"
-              ? "p-3 border border-gray-200 rounded-full shadow-sm"
-              : ""
-          }`}
-        >
-          <span
-            className="material-symbols-outlined"
-            style={{ fontSize: "26px" }}
-          >
-            home
           </span>
         </Link>
 

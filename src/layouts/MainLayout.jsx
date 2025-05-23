@@ -11,7 +11,9 @@ function MainLayout() {
         <img src={HeaderLogo} alt="headerlogo" className="w-22 h-auto" />
       </header>
       <NavBar />
-      <main><Outlet/></main>
+      <main className="w-11/12 m-auto pt-6">
+        <Outlet />
+      </main>
       <footer></footer>
     </>
   );
